@@ -1,3 +1,4 @@
+Attribute VB_Name = "Module1"
 Sub CalculateQuarterlySummaryForAllQuarters()
     Dim ws As Worksheet
     Dim summaryRow As Long
@@ -115,3 +116,4 @@ Sub CalculateQuarterlySummaryForAllQuarters()
 
     MsgBox "Quarterly summary has been calculated for all quarters!", vbInformation
 End Sub
+
